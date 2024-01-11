@@ -1,10 +1,16 @@
-import './App.css';
+import NavLink from '/components/NavLink';
 
 function App() {
   return (
-    <>
-      <button>xd</button>
-    </>
+    <main>
+      <header>
+        <img src='../public/alarado.svg' alt='XD' />
+        <nav>
+          <ul></ul>
+        </nav>
+        <h1>Test</h1>
+      </header>
+    </main>
   );
 }
 
